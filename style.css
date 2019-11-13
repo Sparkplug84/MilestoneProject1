@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:200,300,400,500,600,700,800,900&display=swap');
 
+/* --------------------- General styles -------------------*/
+
 .uppercase {
     text-transform: uppercase;
 }
 
-.language-toggle {
-    display: inline;
-    position: absolute;
-    right: 30px;
-    top: 15px;
-    letter-spacing: 2px;
+/* --------------------- colours -------------------*/
+
+.language-link {
+    color: grey;
 }
 
+/* --------------------- Brand and Logo Section -------------------*/
+
 a.brand {
+    width: 250px;
+    height: 100%;
     text-decoration: none;
 }
 
@@ -26,11 +30,11 @@ a.brand {
     font-size: 42px;
     height: 50px;
     width: 220px;
-    color: green;
+    color: #0d7f0d;
 }
 
 .brand-heading {
-    
+    position: relative;
 }
 
 .brand-sub {
@@ -52,13 +56,80 @@ a.brand {
     font-size: 50px;
     height: 82px;
     width: 60px;
-    color: green;
+    color: #0d7f0d;
     text-align: center;
 }
+
+.language-toggle {
+    display: inline;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    letter-spacing: 2px;
+}
+
+a.language-link {
+    text-decoration: none;
+}
+
+/* --------------------- Navbar -------------------*/
+
+}
+
+.collapse {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 1px solid white;
+}
+
+nav ul li {
+    border-left: 1px solid white;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.hvr-fade {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.hvr-fade:hover {
+    color: white;
+    background-color: #abe1ab;
+}
+
+/* --------------------- Media Queries -------------------*/
 
 @media(min-width: 992px) {
     body {
         margin: 0 auto;
         max-width: 80%;
+    }
+}
+
+@media(max-width: 576px) {
+    .navbar {
+        position: absolute;
+        transform: scaleY(-100px);
+        right: 10px;
+        top: 40px;
     }
 }
