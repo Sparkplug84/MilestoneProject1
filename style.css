@@ -6,6 +6,11 @@
     text-transform: uppercase;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* --------------------- colours -------------------*/
 
 .language-link {
@@ -63,8 +68,8 @@ a.brand {
 .language-toggle {
     display: inline;
     position: absolute;
-    right: 30px;
-    top: 15px;
+    right: 25px;
+    top: 10px;
     letter-spacing: 2px;
 }
 
@@ -73,8 +78,6 @@ a.language-link {
 }
 
 /* --------------------- Navbar -------------------*/
-
-}
 
 .collapse {
     position: relative;
@@ -88,7 +91,6 @@ a.language-link {
 }
 
 nav ul {
-    display: flex;
     justify-content: space-around;
     width: 100%;
     border: 1px solid white;
@@ -116,20 +118,56 @@ nav ul li a {
     background-color: #abe1ab;
 }
 
-/* --------------------- Media Queries -------------------*/
+/* --------------------- Callout -------------------*/
 
-@media(min-width: 992px) {
-    body {
-        margin: 0 auto;
-        max-width: 80%;
-    }
+.callout-container {
+    font-family: "Montserrat", sans-serif;
+    height: 100vh;
+    background: url(https://www.nps.gov/caco/learn/news/images/National-Public-Lands-Day_1.JPG) no-repeat right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 750px;
+    max-height: 400px;
+}
+
+.jumbotron-header,
+.jumbotron .sub-header {
+    color: white;
+}
+
+.block-divider {
+    width: 200px;
+    height: 2px;
+    border: none;
+    background-color: #fff;
+}
+
+.btn-cta {
+    color: #fff;
+    background-color: #e84610;
+    border-color: #e84610;
+    width: 160px;
+    border-radius: 0;
+}
+
+/* --------------------- Media Queries -------------------*/
+
 @media(max-width: 576px) {
-    .navbar {
-        position: absolute;
-        transform: scaleY(-100px);
-        right: 10px;
-        top: 40px;
-    }
+        .navbar {
+            position: absolute;
+            transform: scaleY(-100px);
+            right: 10px;
+            top: 40px;
+            z-index: 1;
+        }
 }
