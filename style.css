@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /* --------------------- colours -------------------*/
 
 .language-link {
@@ -90,6 +94,10 @@ a.language-link {
     padding: 0;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: darkgrey;
+}
+
 nav ul {
     justify-content: space-around;
     width: 100%;
@@ -105,6 +113,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    font-family: "Lato", sans-serif;
 }
 
 .hvr-fade {
@@ -116,6 +125,10 @@ nav ul li a {
 .hvr-fade:hover {
     color: white;
     background-color: #abe1ab;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
 }
 
 /* --------------------- Callout -------------------*/
@@ -158,11 +171,52 @@ nav ul li a {
     border-color: #e84610;
     width: 160px;
     border-radius: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.btn {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* --------------------- Footer -------------------*/
+
+.footer-sub {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+footer {
+    background-color: #0d7f0d;
+    min-height: 100px;
+}
+
+footer p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.flyer-pdf {
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.flyer-pdf:hover {
+    color: #e84610;
 }
 
 /* --------------------- Media Queries -------------------*/
 
-@media(max-width: 576px) {
+@media(max-width: 572px) {
         .navbar {
             position: absolute;
             transform: scaleY(-100px);
