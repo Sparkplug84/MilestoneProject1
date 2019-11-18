@@ -102,6 +102,7 @@ nav ul {
     justify-content: space-around;
     width: 100%;
     border: 1px solid white;
+    background-color: white;
 }
 
 nav ul li {
@@ -129,6 +130,10 @@ nav ul li a {
 
 .navbar .navbar-toggler {
     border: 0;
+}
+
+.active {
+    background-color: #abe1ab;
 }
 
 /* --------------------- Callout -------------------*/
@@ -184,6 +189,7 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: white;
+    margin-bottom: 4px;
 }
 
 footer {
@@ -214,12 +220,73 @@ footer p {
     color: #e84610;
 }
 
+
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: darkgrey;
+    line-height: 8px;
+    padding: 13px 0;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #e84610;
+}
+
+.footer-padding {
+    padding: 0 18px 18px 18px;
+}
+
+/* --------------------- About Me -------------------*/
+
+.profile-heading {
+    padding: 40px;
+    background: #efefef;
+}
+
+.profile-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.profile-photo {
+    width: 100%;
+    padding-bottom: 100%;
+    border: solid 3px darkgrey;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url("./images/maaike-profile.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.details-container {
+    padding: 40px;
+}
+
 /* --------------------- Media Queries -------------------*/
 
 @media(max-width: 572px) {
         .navbar {
             position: absolute;
-            transform: scaleY(-100px);
             right: 10px;
             top: 40px;
             z-index: 1;
