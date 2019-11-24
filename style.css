@@ -144,6 +144,10 @@ nav ul li a {
     background-color: #abe1ab;
 }
 
+.dropdown-item {
+    text-align: center;
+}
+
 /* --------------------- Callout -------------------*/
 
 .callout-container {
@@ -378,7 +382,7 @@ footer p {
 .services-sub {
     min-height: 300px;
     background-color: #efefef;
-    padding: 30px;
+    padding: 20px;
 }
 
 .photo-section {
@@ -416,6 +420,66 @@ footer p {
     display: inline-block;
     font-family: "Lato", sans-serif;
     padding-left: 10px;
+}
+
+.coaching-link,
+.coaching-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* --------------------- Mentor & Coach -------------------*/
+
+.coaching-header {
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+    padding: 25px;
+}
+
+.coaching-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.coaching-jumbotron {
+    position: relative;
+    background: url("./images/Coaching1.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.coaching-jumbotron2 {
+    position: relative;
+    background: url("./images/Coaching2.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.coaching-container-text {
+    position: absolute;
+    top: 25px;
+    background-color: #efefef;
+    width: 90px;
+    height: 45px;
+    padding: 14px;
+}
+
+.coaching-container-text h5 {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* --------------------- Media Queries -------------------*/
@@ -471,5 +535,11 @@ footer p {
     .photo-service3 {
         width: 100%;
         height: 250px;
+    }
+}
+
+@media(max-width: 991px) {
+    .col-lg-6 {
+        padding: 0;
     }
 }
