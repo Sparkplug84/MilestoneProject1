@@ -153,7 +153,7 @@ nav ul li a {
 .callout-container {
     font-family: "Montserrat", sans-serif;
     height: 100vh;
-    background: url(https://www.nps.gov/caco/learn/news/images/National-Public-Lands-Day_1.JPG) no-repeat right fixed;
+    background: url(https://www.nps.gov/caco/learn/news/images/National-Public-Lands-Day_1.JPG) no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -260,7 +260,11 @@ footer p {
 }
 
 .footer-padding {
-    padding: 0 18px 18px 18px;
+    padding: 30px 18px 30px 18px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
 }
 
 /* --------------------- About Me -------------------*/
@@ -679,5 +683,12 @@ label {
     }
     .form-container {
         padding: 0;
+    }
+}
+
+@media(min-width: 1400px) {
+    html {
+        width: 1400px;
+        margin: 0 auto;
     }
 }
