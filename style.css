@@ -185,10 +185,15 @@ nav ul li a {
 .btn-cta {
     color: #fff;
     background-color: #e84610;
-    border-color: #e84610;
+    border: none;
     width: 160px;
     border-radius: 0;
     font-family: "Montserrat", sans-serif;
+}
+
+.btn-cta:hover {
+    background-color: #c43606;
+    color: white;
 }
 
 .btn {
@@ -428,7 +433,7 @@ footer p {
     text-decoration: none;
 }
 
-/* --------------------- Mentor & Coach -------------------*/
+/* --------------------- Coach & Maintain -------------------*/
 
 .coaching-header {
     width: 100%;
@@ -482,6 +487,13 @@ footer p {
     font-weight: 600;
 }
 
+.click-info {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    color: #0d7f0d;
+    text-decoration: underline;
+}
+
 
 /* --------------------- Contact -------------------*/
 
@@ -512,7 +524,7 @@ footer p {
 .contact-info {
     display: block;
     width: 100%;
-    height: 35s0px;
+    height: 350px;
     background-color: #efefef;
 }
 
@@ -541,11 +553,68 @@ label {
     margin: 10px 0 0;
 }
 
-button[type="submit"] {
+.btn-contact {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #e84610;
+}
+
+.btn-contact:hover {
+    background-color: #c43606;
+    color: white;
+}
+
+/* --------------------- Group Activity -------------------*/
+
+.group-jumbotron {
+    position: relative;
+    background: url("./images/group-activity2.jpg") no-repeat left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.group-jumbotron2 {
+    position: relative;
+    background: url("./images/group-activity1.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+/* --------------------- Garden Design -------------------*/
+
+.garden-design-jumbotron {
+    position: relative;
+    background: url("./images/garden-design1.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.garden-design2-jumbotron2 {
+    position: relative;
+    background: url("./images/garden-design2.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    margin: 0 0 50px 0;
 }
 
 /* --------------------- Media Queries -------------------*/
