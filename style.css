@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:|Montserrat:&display=swap');
 
 /* --------------------- General styles -------------------*/
 
@@ -23,19 +23,18 @@ body {
 
 /* --------------------- Brand and Logo Section -------------------*/
 
+.brand-heading {
+    position: relative;
+}
+
 .brand-container {
     width: 300px;
 }
 
 a.brand {
-    width: 250px;
+    width: 300px;
     height: 100%;
     text-decoration: none;
-}
-
-.brand-wrapper {
-    width: 220px;
-    height: 100%;
 }
 
 .brand-header {
@@ -44,10 +43,6 @@ a.brand {
     height: 50px;
     width: 220px;
     color: #0d7f0d;
-}
-
-.brand-heading {
-    position: relative;
 }
 
 .brand-sub {
@@ -109,7 +104,6 @@ a.language-link:hover {
 nav ul {
     justify-content: space-around;
     width: 100%;
-    border: 1px solid white;
     background-color: white;
 }
 
@@ -173,6 +167,14 @@ nav ul li a {
 .jumbotron-header,
 .jumbotron .sub-header {
     color: white;
+}
+
+.sub-header {
+    font-size: 16px;
+}
+
+.jumbotron-header {
+    font-weight: 600;    
 }
 
 .block-divider {
@@ -503,7 +505,7 @@ footer p {
 
 .contact-photo {
     height: 280px;
-    background: url(https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_1280.jpg) no-repeat center;
+    background: url(https://cdn.pixabay.com/photo/2017/12/02/14/38/contact-us-2993000_1280.jpg) no-repeat right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
