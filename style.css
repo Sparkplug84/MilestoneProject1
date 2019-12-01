@@ -189,7 +189,7 @@ nav ul li a {
     background-color: #e84610;
     border: none;
     width: 160px;
-    border-radius: 0;
+    border-radius: 5px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -200,7 +200,7 @@ nav ul li a {
 
 .btn {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* --------------------- Footer -------------------*/
@@ -272,7 +272,7 @@ footer p {
 /* --------------------- About Me -------------------*/
 
 .profile-container {
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
     background: #efefef;
 }
 
@@ -303,7 +303,7 @@ footer p {
 }
 
 .details-container {
-    padding: 20px 20px 0px 20px;
+    padding: 25px 15px 0px 15px;
     background: #efefef;
     margin: 0 auto;
 }
@@ -323,7 +323,7 @@ footer p {
 .personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .personal-info-item .key {
@@ -341,7 +341,7 @@ footer p {
 }
 
 .aboutme-container {
-    padding: 40px;
+    padding: 40px 40px 0;
 
 }
 
@@ -524,7 +524,7 @@ footer p {
 .contact-hr {
     border: dotted 1px;
     opacity: 0.2;
-    margin: 5px 50px 20px;
+    margin: 5px 40px 20px;
 }
 
 .contact-info {
@@ -535,7 +535,7 @@ footer p {
 }
 
 .contact-heading {
-    padding: 50px 0 0 50px;
+    padding: 40px 0 0 40px;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
 }
@@ -545,17 +545,18 @@ footer p {
 }
 
 .form {
-    padding: 20px 50px 20px 50px;
+    padding: 20px 40px 20px;
 }
 
 .form-header {
-    padding: 30px 20px 0 50px;
+    padding: 30px 20px 0 40px;
     font-family: "Montserrat", sans-serif;
     text-align: left;
 }
 
 label {
     font-family: "Lato", sans-serif;
+    font-weight: bolder;
     margin: 10px 0 0;
 }
 
@@ -693,4 +694,10 @@ label {
         width: 1400px;
         margin: 0 auto;
     }
+}
+
+
+.modal-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
 }
