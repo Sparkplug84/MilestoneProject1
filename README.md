@@ -26,16 +26,16 @@ I wanted to create a fairly traditional structure with a logo and language toggl
 
 ### Skeleton
 
-[Home Desktop](/Wireframes/MS1HomeDesktop.png)
-/Wireframes/MS1 Home Phone.png
-/Wireframes/MS1 About Me Desktop.png
-/Wireframes/MS1 About Me Phone.png
-/Wireframes/MS1 Services Desktop.png
-/Wireframes/MS1 Services Phone.png
-/Wireframes/MS1 Projects Desktop.png
-/Wireframes/MS1 Projects Phone.png
-/Wireframes/MS1 Contact Desktop.png
-/Wireframes/MS1 Contact Phone.png
+[Home Desktop](/Wireframes/MS1HomeDesktop.png) <br>
+[Home Phone](/Wireframes/MS1HomePhone.png) <br>
+[About Me Desktop](/Wireframes/MS1AboutMeDesktop.png) <br>
+[About Me Phone](/Wireframes/MS1AboutMePhone.png) <br>
+[Services Desktop](/Wireframes/MS1ServicesDesktop.png) <br>
+[Services Phone](/Wireframes/MS1ServicesPhone.png) <br>
+[Projects Desktop](/Wireframes/MS1ProjectsDesktop.png) <br>
+[Projects Phone](/Wireframes/MS1ProjectsPhone.png) <br>
+[Contact Desktop](/Wireframes/MS1ContactDesktop.png) <br>
+[Contact Phone](/Wireframes/MS1ContactPhone.png)
 
 ### Surface
 
