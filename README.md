@@ -26,7 +26,16 @@ I wanted to create a fairly traditional structure with a logo and language toggl
 
 ### Skeleton
 
-BALSAMIC SKETCHES
+![Home Desktop]('./Wireframes/MS1HomeDesktop.png')
+/Wireframes/MS1 Home Phone.png
+/Wireframes/MS1 About Me Desktop.png
+/Wireframes/MS1 About Me Phone.png
+/Wireframes/MS1 Services Desktop.png
+/Wireframes/MS1 Services Phone.png
+/Wireframes/MS1 Projects Desktop.png
+/Wireframes/MS1 Projects Phone.png
+/Wireframes/MS1 Contact Desktop.png
+/Wireframes/MS1 Contact Phone.png
 
 ### Surface
 
