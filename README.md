@@ -77,8 +77,7 @@ These test were carried out across different browsers including Google Chrome, M
 
 ## Deployment
 
-The site is hosted using GitHub pages and is deployed directly from the master branch. With every commit and push the site will automatically update.
-
+The site is hosted using GitHub pages and is deployed directly from the master branch. With every commit and push the site will automatically update. <br> [click here to view the site](https://sparkplug84.github.io/MilestoneProject1/)
 ## Credits
 
 ### Content
@@ -91,4 +90,7 @@ Most of the photos were supplied by the business owner. Several photos were also
 
 ### Acknowledgements
 
-A lot of the code was written using Bootstrap components, in particular the navbar. A Bootstrap grid system was also used in the footer and throughout the main sections of each page. The Modal form boiler plate was also taken from Bootstrap. These were all then customized with my own styling in most cases.
+A lot of the code was written using Bootstrap components, in particular the navbar. A Bootstrap grid system was also used in the footer and throughout the main sections of each page. The Modal form boiler plate was also taken from Bootstrap. These were all then customized with my own styling in most cases. <br>
+Font Awesome was also used to import some icons for social links, download flyer, in the about page and on the brand logo. <br>
+Google fonts were also imported into the CSS file. <br>
+Hover.css was also used for the hover function of the navigation bar.
