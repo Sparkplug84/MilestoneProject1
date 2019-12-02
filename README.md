@@ -26,7 +26,7 @@ I wanted to create a fairly traditional structure with a logo and language toggl
 
 ### Skeleton
 
-[Home Desktop](MS1HomeDesktop.png)
+[Home Desktop](/Wireframes/MS1HomeDesktop.png)
 /Wireframes/MS1 Home Phone.png
 /Wireframes/MS1 About Me Desktop.png
 /Wireframes/MS1 About Me Phone.png
