@@ -4,7 +4,7 @@
 
 ## GroeneZin – Garden Theraphy Website
 
-This is a website I created for a small gardening business in the Netherlands. There are 5 main section on the site. A home page with a callout to make contact. An about me page with information and an introduction to the business owner. After that we have a page of available services. A list of past projects are available to view from the menu and finally a contact page. As it is for a business in the Netherlands, all pages are also available to view in Dutch language.
+This is a website I created for a small gardening business in the Netherlands. There are 5 main section on the site. A home page with a callout to make contact. An about me page with information and an introduction to the business owner. After that we have a page of available services. A list of past projects are available to view from the menu and finally a contact page. As it is for a business in the Netherlands, all pages are also available to view in Dutch.
 
 ## UX
 
@@ -14,7 +14,7 @@ As a potential customer I would like to read some information about the business
 
 ### Strategy
 
-My goal for the website was to make it simple to understand and easy to navigate. Being a gardening business green was an obvious choice for a colour theme but I also tried to make it a little subtle. The logo and footer sharing the same green colour end complemented with some light grey and white throughout the site along with a pale green for the menu.
+My goal for the website was to make it simple to understand and easy to navigate. Being a gardening business green was an obvious choice for a colour theme but I also tried to make it a little subtle. The logo and footer sharing the same green colour and complemented with some light grey and white throughout the site along with a pale green for the menu.
 
 ### Scope
 
@@ -71,9 +71,9 @@ The brand logo is also a link that will always take you back to the home page fr
 
 All internal links on the navigation bar and on some of the pages have been individually tested and all navigate to the correct pages.
 
-On the contact page and the modal you will be required to fill in all the fields with information to proceed in particular for the email address it must be an address with an @.
+On the contact page and the modal you will be required to fill in all the fields with information to proceed and in particular for the email address it must be an address with an @.
 
-These test were carried out across different browsers including Google Chrome, Microsoft Edge and Safari. The responsiveness of the design was also tested on Android and iOS devices with consistent results.
+These test were carried out across different browsers including Google Chrome, Microsoft Edge, Mozilla Firefox and Safari. The responsiveness of the design was also tested on Android phones and iOS phones and tablets with consistent results.
 
 ## Deployment
 

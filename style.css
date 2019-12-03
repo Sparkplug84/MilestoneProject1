@@ -453,6 +453,10 @@ footer p {
     font-weight: 500;
 }
 
+.coaching-header p {
+    font-family: "Lato", sans-serif;
+}
+
 .coaching-jumbotron {
     position: relative;
     background: url("./images/Coaching1.jpg") no-repeat center;
