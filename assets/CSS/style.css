@@ -290,7 +290,7 @@ footer p {
     border: solid 3px darkgrey;
     border-radius: 50%;
     margin: 0 auto;
-    background: url("./images/maaike-profile.jpg") center;
+    background: url("../images/maaike-profile.jpg") center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -404,21 +404,21 @@ footer p {
 .photo-service1 {
     width: 85%;
     min-height: 300px;
-    background: url("./images/tuinier-plant-zaadjes-in-zijn-tuin.jpg") no-repeat center;
+    background: url("../images/tuinier-plant-zaadjes-in-zijn-tuin.jpg") no-repeat center;
     background-size: cover;
 }
 
 .photo-service2 {
     width: 85%;
     min-height: 300px;
-    background: url("./images/group-activity1.jpg") no-repeat center;
+    background: url("../images/group-activity1.jpg") no-repeat center;
     background-size: cover;
 }
 
 .photo-service3 {
     width: 85%;
     min-height: 300px;
-    background: url("./images/Moestuin Herbergier plan.jpg") no-repeat center;
+    background: url("../images/Moestuin Herbergier plan.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -459,7 +459,7 @@ footer p {
 
 .coaching-jumbotron {
     position: relative;
-    background: url("./images/Coaching1.jpg") no-repeat center;
+    background: url("../images/Coaching1.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -471,7 +471,7 @@ footer p {
 
 .coaching-jumbotron2 {
     position: relative;
-    background: url("./images/Coaching2.jpg") no-repeat center;
+    background: url("../images/Coaching2.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -580,7 +580,7 @@ label {
 
 .group-jumbotron {
     position: relative;
-    background: url("./images/group-activity2.jpg") no-repeat left;
+    background: url("../images/group-activity2.jpg") no-repeat left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -592,7 +592,7 @@ label {
 
 .group-jumbotron2 {
     position: relative;
-    background: url("./images/group-activity1.jpg") no-repeat center;
+    background: url("../images/group-activity1.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -606,7 +606,7 @@ label {
 
 .garden-design-jumbotron {
     position: relative;
-    background: url("./images/garden-design1.jpg") no-repeat center;
+    background: url("../images/garden-design1.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -618,7 +618,7 @@ label {
 
 .garden-design2-jumbotron2 {
     position: relative;
-    background: url("./images/garden-design2.jpg") no-repeat center;
+    background: url("../images/garden-design2.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -700,8 +700,21 @@ label {
     }
 }
 
+@media(max-width: 350px) {
+    .brand-wrapper {
+        transform: scale(0.8);
+        text-align: left;
+    }
+    .brand-heading {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+/* --------------------- Modal -------------------*/
 
 .modal-title {
     font-family: "Montserrat", sans-serif;
     font-weight: bolder;
 }
+

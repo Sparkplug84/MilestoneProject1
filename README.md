@@ -55,7 +55,7 @@ These include a language toggle so you can view all the pages in Dutch language.
 
 ### Features left to implement
 
-I would like to show more past projects and more photos showing a more detailed timeline of the work in progress.
+I would like to show more past projects and more photos showing a more detailed timeline of the work in progress. To implement the language toggle, I waiting until I was completely finished with my website and then dublicated the pages to create the dutch versions. With my current skill set this was the only way I knew how to and for a small website it was not such a big problem to translate all the text, but in the future I would like to implement a more efficient way to toggle between languages, especially if I have more content to add.
 
 ## Testing
 
@@ -73,11 +73,12 @@ All internal links on the navigation bar and on some of the pages have been indi
 
 On the contact page and the modal you will be required to fill in all the fields with information to proceed and in particular for the email address it must be an address with an @.
 
-These test were carried out across different browsers including Google Chrome, Microsoft Edge, Mozilla Firefox and Safari. The responsiveness of the design was also tested on Android phones and iOS phones and tablets with consistent results.
+These test were carried out across different browsers including Google Chrome, Microsoft Edge, Mozilla Firefox and Safari. The responsiveness of the design was also tested on Android phones Galaxy S5, S8 & S9 and Huawei P20 and iOS Iphones 5,6,7,8 and X and Ipad tablets with consistent results.
 
 ## Deployment
 
-The site is hosted using GitHub pages and is deployed directly from the master branch. With every commit and push the site will automatically update. <br> [click here to view the site](https://sparkplug84.github.io/MilestoneProject1/)
+The site is hosted using GitHub pages and is deployed directly from the master branch. With every commit and push the site will automatically update. To host the site I used the following steps: 1. Go to my GitHub repository for this project (MilestoneProject1). 2. Click on 'Settings'. 3. Go down to the 'GitHub Pages' section. 4. Under the heading 'Source' there is a dropdown button, click it and select 'Master Branch' This will ensure that my site is hosted from the master branch of my repostiory where all of the HTML files will be and not within another folder. 5. The 'Settings' page will then be refreshed and when you scroll back down to the 'GitHub pages' section a link will now appear from where your site will be hosted from and can then be viewed by anyone.<br> [click here to view the site](https://sparkplug84.github.io/MilestoneProject1/)
+
 ## Credits
 
 ### Content
